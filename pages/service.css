@@ -1,0 +1,143 @@
+/* -----------Header section here--------------- */
+a {
+    text-decoration: none !important;
+    color: #000000 !important;
+    outline: 0;
+}
+
+header {
+    background-color: #928200;
+}
+
+.menu ul li {
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.menu ul li:hover {
+    background-color: #ffffff;
+}
+
+.menu ul li:hover a {
+    color: black !important;
+}
+
+.menu ul li a {
+    color: #ffffff !important;
+    font-size: 18px;
+}
+
+header .image {
+    width: 50px;
+    height: 50px;
+}
+
+header .image a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* ---------Service section here---------- */
+
+.service-hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(images/service-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-hero span {
+    color: #928200;
+    font-weight: bold;
+}
+.service-hero a {
+    color: #ffffff !important;
+    background-color: #928200 !important;
+}
+.service-hero a:hover {
+    color: #000000 !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px 1px #928200;
+}
+.service-hero h2 {
+   font-size: 50px;
+   margin-bottom: 20px;
+   color: #ffffff;
+}
+
+/* ---------Cancer treatmentsection here--------- */
+
+.cancer-treatment-line {
+    width: 70%;
+    margin: auto;
+}
+.cancer-treatment-item {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.cancer-treatment-item:hover {
+    background-color: #928200;
+    color: #ffffff;
+    transition: .5s;
+}
+.cancer-treatment-item:hover a h2 {
+    color: #ffffff;
+    transition: .5s;
+}
+.cancer-treatment-item a h2 {
+    margin-bottom: 15px;
+}
+.cancer-treatment-item p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* -------Navigate section here----- */
+.navigate-section {
+    overflow: hidden;
+}
+.navigate {
+    background-color: #928200;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 0px;
+}
+.navigate-title {
+    background-color: #928200;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 5px;
+    color: #ffffff;
+
+}
+.navigate a {
+    display: block;
+    color: #ffffff !important;
+    font-size: 18px;
+}
+
+
+
+/* --------Footer section here----------- */
+
+.footer-section {
+    background-color: #c1c1c1;
+    overflow: hidden;
+}
+
+.footer-logo .image {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-logo .image a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}

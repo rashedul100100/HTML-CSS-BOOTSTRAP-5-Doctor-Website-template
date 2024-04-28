@@ -1,0 +1,440 @@
+/* -----------Header section here--------------- */
+a {
+    text-decoration: none !important;
+    color: #000000 !important;
+    outline: 0;
+}
+
+header {
+    background-color: #928200;
+}
+
+.menu ul li {
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.menu ul li:hover {
+    background-color: #ffffff;
+}
+
+.menu ul li:hover a {
+    color: black !important;
+}
+
+.menu ul li a {
+    color: #ffffff !important;
+    font-size: 18px;
+}
+
+header .image {
+    width: 50px;
+    height: 50px;
+}
+
+header .image a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* -------------Hero section here----------- */
+.hero a {
+    color: #ffffff !important;
+    background-color: #928200 !important;
+}
+
+.hero a:hover {
+    color: #000000 !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 0px 0px 1px #928200;
+}
+
+.hero-section {
+    background: url(../image/hero.jpg), black;
+    background-position-y: top;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #00000087;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* -----------About section here------------ */
+.about-section {
+    background-color: #d2ffb91a;
+}
+
+.about-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #928200;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-description a {
+    color: #ffffff !important;
+    background-color: #928200 !important;
+}
+
+.about-description {
+    box-shadow: 0px 0px 40px -29px black;
+    padding: 10px;
+}
+
+.about-description p {
+    font-size: 18px;
+
+}
+
+.about-description h3 {
+    font-size: 30px;
+}
+
+.about-description a:hover {
+    color: #000000 !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px 1px #928200;
+}
+
+/* ---------Service section here------------- */
+
+.service-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #928200;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.service-image .image {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.service-image .image img {
+    width: 100% !important;
+    height: 100% !important;
+    display: inline-block !important;
+    object-fit: cover !important;
+}
+
+.service a {
+    color: #ffffff !important;
+    background-color: #928200 !important;
+}
+
+.service a:hover {
+    color: #000000 !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px 1px #928200;
+}
+
+
+.card {
+    box-shadow: 0px 0px 40px -29px black;
+}
+
+/* ---------Treatment section here---------- */
+.treatment-section {
+    background-color: #fafcfa;
+}
+
+.treatment-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #928200;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.treatment {
+    padding: 10px;
+}
+
+.treatment:hover {
+    box-shadow: 0px 0px 40px -29px black;
+    background-color: #ffffff;
+}
+
+.treatment:hover h3 {
+    text-decoration: underline;
+}
+
+
+
+/* ------------Contact section here---------- */
+.contact-section {
+    background: url(../image/Dr-pointing-contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #928200;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+form button {
+    color: #ffffff !important;
+    background-color: #928200 !important;
+}
+
+form button:hover {
+    color: #000000 !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 0px 0px 1px #928200;
+}
+
+/* --------Footer section here----------- */
+
+.footer-section {
+    background-color: #c1c1c1;
+}
+
+.footer-logo .image {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-logo .image a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* ------------About page css here------------ */
+.about-page-section {
+    background-image: linear-gradient(#00000091, #00000091), url(../image/about-page-hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.about-page-hero h3::after {
+    content: "";
+    display: block;
+    background-color: #928200;
+    width: 105px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+/* ------About page top care section--------- */
+
+.top-care-section {
+    padding-bottom: 100px;
+}
+
+.top-care-section .top-care {
+    box-shadow: 0px 0px 30px -10px black;
+    padding: 40px 30px;
+    border-radius: 18px;
+    margin-top: -100px;
+    background-color: #ffffff;
+}
+
+.top-care-section .care-item {
+    border: 4px solid #928200;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+.top-care-section .care-item:hover {
+    background-color: #928200;
+    color: #ffffff;
+    transition: ease .5s;
+}
+
+.special-care-logo .image {
+    width: 100%;
+    height: 70px;
+}
+
+.special-care-logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.about-search-box input {
+    outline: 0;
+    padding: 10px;
+    width: 90%;
+    border-radius: 18px;
+    border: none;
+    background-color: #928200bd !important;
+    color: white;
+}
+
+.about-search-box i {
+    padding: 10px;
+    border-radius: 18px;
+    background-color: #928200;
+    font-size: 21px;
+    margin-left: -40px;
+    color: white;
+}
+
+.special-care-heading p {
+    line-height: 40px;
+}
+
+/* --------Premium section here----------- */
+
+.premium-service {
+    background-color: #928200;
+    border-radius: 28px;
+    color: #ffffff;
+}
+
+.premium-item .image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.premium-item .image img {
+    width: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.premium-item a {
+    font-size: 30px;
+    text-align: center !important;
+}
+
+.premium-item {
+    background-color: #ffffff;
+    padding: 40px;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.premium-item:hover {
+    background-color: #928200;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.premium-item:hover a {
+    color: #ffffff !important;
+}
+
+/* -----Top care section here------------ */
+.top-care-border-section {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.top-care-description {
+    background-color: #6c6c6c;
+    color: #ffffff;
+    padding: 0px 30px;
+    border-radius: 25px;
+}
+
+.top-care-description .image {
+    width: 100%;
+    height: 100%;
+}
+
+.top-care-description .image img {
+    height: 100%;
+    display: block;
+}
+
+/* ----------Started section here---------- */
+.started-section {
+    background-color: #dcdcdc2e;
+}
+
+.started .image img {
+    padding-left: 10%;
+}
+
+.started p {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.started h2 {
+    font-size: 50px;
+}
+
+/* ---------Founder section here---------- */
+.founder-section {
+    background-color: #f2fff2;
+    padding-top: 100px;
+}
+
+.founder .image {
+    width: 100%;
+    height: 100%;
+}
+
+.founder .image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------Healthcare section here----------- */
+.healthcare-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.healthcare a {
+    color: #ffffff !important;
+    background-color: #928200 !important;
+    text-align: center;
+}
+
+.healthcare a:hover {
+    color: #000000 !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px 1px #928200;
+}
+
+.healthcare .image {
+    width: 100%;
+    height: 100%;
+}
+
+.healthcare .image img {
+    width: 100%;
+    height: 100%;
+}
